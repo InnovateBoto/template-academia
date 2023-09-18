@@ -1,5 +1,5 @@
 import Bootstrap from "../hoc/Bootstrap";
-
+import PricingCard from "./PricingCard";
 function Sectiontwo(){
     return(
 
@@ -8,14 +8,50 @@ function Sectiontwo(){
         Nossos Planos
       </h1>
       <div className="flex justify-evenly py-6 sm:flex-row flex-col items-center gap-y-8">
-        <div className="p-20 py-24 bg-gray-700 rounded-lg"></div>
-        <div className="p-20 py-24 bg-gray-800 rounded-lg"></div>
-        <div className="p-20 py-24 bg-gray-900 rounded-lg"></div>
-        <div className="p-20 py-24 bg-gray-500 rounded-lg"></div>
+        
+      <PricingCard
+        title="Plano Padrão"
+        price="29"
+        features={[
+          "5 team members",
+          "200+ components",
+          "40+ built-in pages",
+          "1 year free updates",
+          "Life time technical support",
+        ]}
+        buttonText="Comprar Agora"
+      />
+      <PricingCard
+        title="Plano Premium"
+        price="49"
+        features={[
+          "10 team members",
+          "300+ components",
+          "60+ built-in pages",
+          "2 years free updates",
+          "Priority technical support",
+        ]}
+        buttonText="Comprar Agora"
+      />
+
+      <PricingCard
+        title="Plano Premium Plus"
+        price="150"
+        features={[
+          "20 team members",
+          "500+ components",
+          "75+ built-in pages",
+          "99 years free updates",
+          "Priority technical support",
+        ]}
+        buttonText="Comprar Agora"
+      />
+    
+
       </div>
     </div>
 
-
+      
 
     );
 }

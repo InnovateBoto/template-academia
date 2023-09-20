@@ -15,4 +15,4 @@ function Sectionthree() {
   );
 }
 
-export default Bootstrap(Sectionthree, "#1f1f1f");
+export default Bootstrap(Sectionthree, "#FFB94B");

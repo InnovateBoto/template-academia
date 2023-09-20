@@ -2,9 +2,10 @@ import Bootstrap from "../hoc/Bootstrap";
 import PricingCard from "./PricingCard";
 function Sectiontwo(){
     return(
-
-    <div className="bg-[#FFB94B] h-auto w-full items-center py-4">
-      <h1 className="text-center font-semibold text-3xl text-gray-900">
+      
+    
+    <div className="bg-[#FFB94B] h-auto w-full items-center">
+      <h1 className="text-center font-semibold text-3xl text-gray-900 z-50">
         Nossos Planos
       </h1>
       <div className="flex justify-evenly py-6 sm:flex-row flex-col items-center gap-y-8">
@@ -51,8 +52,6 @@ function Sectiontwo(){
       </div>
     </div>
 
-      
-
     );
 }
 
@@ -61,4 +60,4 @@ function Sectiontwo(){
 
 
 
-export default Bootstrap(Sectiontwo, "#1f1f1f");
+export default Bootstrap(Sectiontwo, "#FFB94B");

@@ -36,7 +36,7 @@ import {
    
   function PricingCard({ title, price, features, buttonText }: PricingCardProps){
     return (
-      <Card color="gray" variant="gradient" className="w-full max-w-[20rem] p-8">
+      <Card color="gray" variant="gradient" className="w-full max-w-[20rem] p-8 lg:w-full mx-2">
         <CardHeader
           floated={false}
           shadow={false}

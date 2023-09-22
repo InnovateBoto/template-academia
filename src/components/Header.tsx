@@ -99,12 +99,12 @@ function Header() {
         )}
       >
         <img
-          src="https://www.aubicon.com.br/wp-content/uploads/2022/06/4-dicas-de-como-organizar-o-layout-da-sua-academia_blog_1200x800px_100_img2.png"
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           alt="image 1"
           className="h-[30rem] w-full object-cover rounded-b-md"
         />
         <img
-          src="https://www.lifefitness.com.br/resource/image/1868332/portrait_ratio1x1/600/600/35a80524fd4256ad3ce2f0c48ea29740/iW/hero-image-cardio-consoles.png"
+          src="https://images.unsplash.com/photo-1542766788-a2f588f447ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1752&q=80"
           alt="image 2"
           className="h-[30rem] w-full object-cover rounded-b-md"
         />

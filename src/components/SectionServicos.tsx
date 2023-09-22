@@ -2,8 +2,8 @@ import Bootstrap from "../hoc/Bootstrap";
 
 function Section() {
   return (
-    <div className=" h-auto w-full bg-primary pt-4 flex items-center flex-col gap-3">
-      <h1 className="text-center font-semibold text-3xl text-blue-gray-100">
+    <div className="h-auto w-full bg-primary pt-4 pb-20 flex items-center flex-col gap-3">
+      <h1 className="text-center font-semibold text-4xl text-blue-gray-100 py-4">
         Nossos Serviços
       </h1>
 

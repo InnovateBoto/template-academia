@@ -28,11 +28,7 @@ function Header() {
     <>
       <header className="px-16 bg-[#FFB94B] flex justify-between relative py-4">
         <div className="w-44 h-44 -top-24 bg-gray-900 rounded-full absolute flex items-end justify-center pb-6">
-          <img
-            src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
-            alt=""
-            className="w-10 h-10"
-          />
+          <img src="logo.svg" alt="" className="w-10 h-10" />
         </div>
 
         <div className="hidden sm:flex gap-4 w-full justify-end items-center">
@@ -40,7 +36,7 @@ function Header() {
             return (
               <a
                 href={element.href}
-                className="text-gray-100 hover:text-gray-800 font-normal"
+                className="hover:text-gray-100 text-gray-800 font-medium"
                 key={element.name}
               >
                 {element.name}
@@ -101,26 +97,22 @@ function Header() {
         <img
           src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
           alt="image 1"
-          className="h-[30rem] w-full object-cover rounded-b-md"
+          className="h-[30rem] w-full object-cover "
         />
         <img
           src="https://images.unsplash.com/photo-1542766788-a2f588f447ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1752&q=80"
           alt="image 2"
-          className="h-[30rem] w-full object-cover rounded-b-md"
+          className="h-[30rem] w-full object-cover "
         />
         <img
           src="https://sabawellness.com.br/wp-content/uploads/2022/03/AdobeStock_SABA-WELLNESS-ACADEMIA-4-scaled.jpeg"
           alt="image 3"
-          className="h-[30rem] w-full object-cover rounded-b-md"
+          className="h-[30rem] w-full object-cover "
         />
       </Carousel>
       {/* Round div with the image */}
       <div className="w-44 h-44 -top-24 left-16 bg-gray-900 rounded-full absolute flex items-end justify-center pb-6">
-        <img
-          src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
-          alt=""
-          className="w-10 h-10"
-        />
+        <img src="logo.svg" alt="" className="w-10 h-10" />
       </div>
     </>
   );

@@ -5,15 +5,14 @@ import SectionPlanos from "./components/SectionPlanos";
 import Sectionthree from "./components/Sectionthree";
 import Wave from "./components/Wave";
 
-
 function App() {
   return (
     <>
       <Header />
       <SectionServicos />
-      <Wave/>
+      <Wave />
       <SectionPlanos />
-      <Sectionthree />  
+      <Sectionthree />
       <Footer />
     </>
   );

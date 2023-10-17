@@ -55,8 +55,8 @@ import {
           color="white"
           className="mt-6 flex justify-center gap-1 text-7xl font-normal"
         >
-          <span className="mt-2 text-4xl">R$</span> {price}{" "}
-          <span className="self-end text-4xl">/mês</span>
+          <span className="mt-2 text-2xl">R$</span> {price}{" "}
+          <span className="self-end text-2xl">/mês</span>
         </Typography>
       </CardHeader>
       <CardBody className="p-0">
